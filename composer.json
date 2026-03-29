@@ -1,0 +1,25 @@
+{
+  "name": "roshan-dhungana/route-commands",
+  "description": "A Laravel package for scaffolding modules and executing structured development commands",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roshan Dhungana",
+      "email": "dhunganaroshan341@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RoshanDhungana\\RouteCommands\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RoshanDhungana\\RouteCommands\\RouteCommandsServiceProvider"
+      ]
+    }
+  },
+  "require": {}
+}
