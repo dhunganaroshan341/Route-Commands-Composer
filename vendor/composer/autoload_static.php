@@ -22,6 +22,9 @@ class ComposerStaticInitf3cd7776bdaf83084a275938aaa18a6f
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'RoshanDhungana\\RouteCommands\\Http\\Controllers\\CommandController' => __DIR__ . '/../..' . '/src/Http/Controllers/CommandController.php',
+        'RoshanDhungana\\RouteCommands\\RouteCommandsServiceProvider' => __DIR__ . '/../..' . '/src/RouteCommandsServiceProvider.php',
+        'RoshanDhungana\\RouteCommands\\Services\\CommandExecutor' => __DIR__ . '/../..' . '/src/Services/CommandExecutor.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

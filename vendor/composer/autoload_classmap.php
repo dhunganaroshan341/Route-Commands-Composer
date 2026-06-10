@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'RoshanDhungana\\RouteCommands\\Http\\Controllers\\CommandController' => $baseDir . '/src/Http/Controllers/CommandController.php',
+    'RoshanDhungana\\RouteCommands\\RouteCommandsServiceProvider' => $baseDir . '/src/RouteCommandsServiceProvider.php',
+    'RoshanDhungana\\RouteCommands\\Services\\CommandExecutor' => $baseDir . '/src/Services/CommandExecutor.php',
 );
